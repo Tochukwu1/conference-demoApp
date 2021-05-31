@@ -8,11 +8,11 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistenceConfiguration {
-    @Bean
+   /* @Bean
     public DataSource datasource(){
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:mysql://localhost:3306/conference_demo?user=springuser&password=ThePassword");
         System.out.println("My custom datasource has been initialized and set");
         return builder.build();
-    }
+    } */
 }
